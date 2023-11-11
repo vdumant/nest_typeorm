@@ -3,7 +3,7 @@ import { ConfigType } from '@nestjs/config';
 // import { Client } from 'pg';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
-import config from 'config';
+import config from './../config';
 
 const API_KEY = '12345634';
 const API_KEY_PROD = 'PROD1212121SA';
